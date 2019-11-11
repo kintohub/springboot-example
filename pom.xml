@@ -3,9 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>myproject</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.kintohub</groupId>
+    <artifactId>springboot-example</artifactId>
+    <version>1.0.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,18 +30,14 @@
         </dependency>
     </dependencies>
 
-
-    <description/>
-    <developers>
-        <developer/>
-    </developers>
-    <licenses>
-        <license/>
-    </licenses>
-    <scm>
-        <url/>
-    </scm>
-    <url/>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
     <!-- Additional lines to be added here... -->
 
