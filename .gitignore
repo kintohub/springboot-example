@@ -1,5 +1,7 @@
-coverage.txt
-.env
-.DS_Store
-.idea
+target
+.project
+.classpath
+.gradle
 .vscode
+.settings
+.env
